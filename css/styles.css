@@ -39,6 +39,10 @@ h3 {
   color: #2e2f42;
 }
 
+address {
+  font-style: normal;
+}
+
 /** ==============HEADER================ */
 
 .header-logo {
@@ -71,6 +75,16 @@ h3 {
   color: #434455;
 }
 
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf;
+}
+
+.header-contact-link:hover,
+.header-contact-link:focus {
+  color: #404bbf;
+}
+
 /** ============================== */
 
 /** ==============HERO================ */
@@ -99,6 +113,12 @@ h3 {
   letter-spacing: 0.04em;
   color: #fff;
 }
+
+.hero-order-btn:hover,
+.hero-order-btn:focus {
+  background: #404bbf;
+}
+
 /** ============================== */
 
 /** ==============SKILLS================ */
@@ -133,6 +153,11 @@ h3 {
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+}
+
+.team-item {
+  background-color: #fff;
 }
 
 .team-item-title {
