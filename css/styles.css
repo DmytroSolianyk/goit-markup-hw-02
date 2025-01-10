@@ -189,6 +189,7 @@ h3 {
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .portfolio-item-title {
@@ -219,11 +220,11 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 
-.footer-logo-cursive {
-  color: #4d5ae5;
+.footer-logo-second-text {
+  color: #f4f4fd;
 }
 
 .footer-text {
