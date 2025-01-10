@@ -61,13 +61,13 @@ h3 {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--NAVY-BLUE);
+  color: var(--IRIS);
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
 
-.header-logo-cursive {
-  color: var(--IRIS);
+.header-logo-second-text {
+  color: var(--NAVY-BLUE);
 }
 
 .header-menu-link {
