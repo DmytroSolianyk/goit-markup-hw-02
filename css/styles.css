@@ -1,22 +1,7 @@
-:root {
-  --IRIS: #4d5ae5;
-  --OCEAN: #404bbf;
-  --NAVY-BLUE: #2e2f42;
-  --GREEN: #31d0aa;
-  --SLATE: #434455;
-  --LIGHT-SLATE: #8e8f99;
-  --CORNFLOWER: #e7e9fc;
-  --CLOUD: #f4f4fd;
-  --NAVY-BLUE-MODAL: rgba(46, 47, 66, 0.4);
-  --GREY: rgba(46, 47, 66, 0.7);
-  --WHITE: #fff;
-  --DAIRY: #fcfcfc;
-}
-
 body {
   font-family: "Roboto", sans-serif;
-  background-color: var(--WHITE);
-  color: var(--SLATE);
+  background-color: #fff;
+  color: #434455;
 }
 
 ul {
@@ -46,12 +31,12 @@ button {
 }
 
 p {
-  color: var(--SLATE);
+  color: #434455;
 }
 
 h2,
 h3 {
-  color: var(--NAVY-BLUE);
+  color: #2e2f42;
 }
 
 /** ==============HEADER================ */
@@ -61,13 +46,13 @@ h3 {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--IRIS);
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
 
 .header-logo-second-text {
-  color: var(--NAVY-BLUE);
+  color: #2e2f42;
 }
 
 .header-menu-link {
@@ -75,7 +60,7 @@ h3 {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--NAVY-BLUE);
+  color: #2e2f42;
 }
 
 .header-contact-link {
@@ -83,18 +68,18 @@ h3 {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--SLATE);
+  color: #434455;
 }
 
 /** ============================== */
 
 /** ==============HERO================ */
 .hero {
-  background-color: var(--NAVY-BLUE);
+  background-color: #2e2f42;
 }
 
 .hero-title {
-  color: var(--WHITE);
+  color: #fff;
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
@@ -107,18 +92,18 @@ h3 {
   width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: var(--IRIS);
+  background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
-  color: var(--WHITE);
+  color: #fff;
 }
 /** ============================== */
 
 /** ==============SKILLS================ */
 .skills {
-  background-color: var(--WHITE);
+  background-color: #fff;
 }
 
 .skills-item-title {
@@ -139,7 +124,7 @@ h3 {
 
 /** ==============TEAM================ */
 .team {
-  background-color: var(--CLOUD);
+  background-color: #f4f4fd;
 }
 
 .team-title {
@@ -170,7 +155,7 @@ h3 {
 
 /** ==============PORTFOLIO================ */
 .portfolio {
-  background-color: var(--WHITE);
+  background-color: #fff;
 }
 
 .portfolio-title {
@@ -199,7 +184,7 @@ h3 {
 
 /** ==============FOOTER================ */
 .footer {
-  background-color: var(--NAVY-BLUE);
+  background-color: #2e2f42;
 }
 
 .footer-logo {
@@ -209,11 +194,11 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
-  color: var(--CLOUD);
+  color: #f4f4fd;
 }
 
 .footer-logo-cursive {
-  color: var(--IRIS);
+  color: #4d5ae5;
 }
 
 .footer-text {
@@ -221,6 +206,6 @@ h3 {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: var(--CLOUD);
+  color: #f4f4fd;
 }
 /** ============================== */
