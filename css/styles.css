@@ -1,2 +1,235 @@
-body {
+:root {
+  --IRIS: #4d5ae5;
+  --OCEAN: #404bbf;
+  --NAVY-BLUE: #2e2f42;
+  --GREEN: #31d0aa;
+  --SLATE: #434455;
+  --LIGHT-SLATE: #8e8f99;
+  --CORNFLOWER: #e7e9fc;
+  --CLOUD: #f4f4fd;
+  --NAVY-BLUE-MODAL: rgba(46, 47, 66, 0.4);
+  --GREY: rgba(46, 47, 66, 0.7);
+  --WHITE: #fff;
+  --DAIRY: #fcfcfc;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+p {
+  color: var(--SLATE);
+}
+
+h2,
+h3 {
+  color: var(--NAVY-BLUE);
+}
+
+/** ==============HEADER================ */
+
+.header-logo {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--NAVY-BLUE);
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+
+.header-logo-cursive {
+  font-style: italic;
+  color: var(--IRIS);
+}
+
+.header-menu-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--NAVY-BLUE);
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--NAVY-BLUE-MODAL);
+}
+
+.header-contact-link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--SLATE);
+}
+
+.header-contact-link:hover,
+.header-contact-link:focus {
+  color: var(--LIGHT-SLATE);
+}
+
+/** ============================== */
+
+/** ==============HERO================ */
+.hero {
+  background-color: var(--NAVY-BLUE);
+}
+
+.hero-title {
+  color: var(--WHITE);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.hero-order-btn {
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: var(--IRIS);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: var(--WHITE);
+}
+/** ============================== */
+
+/** ==============SKILLS================ */
+.skills {
+  background-color: var(--WHITE);
+}
+
+.skills-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+}
+
+.skills-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+
+/** ============================== */
+
+/** ==============TEAM================ */
+.team {
+  background-color: var(--CLOUD);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.team-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.team-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/** ============================== */
+
+/** ==============PORTFOLIO================ */
+.portfolio {
+  background-color: var(--WHITE);
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.portfolio-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+
+/** ============================== */
+
+/** ==============FOOTER================ */
+.footer {
+  background-color: var(--NAVY-BLUE);
+}
+
+.footer-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  color: var(--CLOUD);
+}
+
+.footer-logo-cursive {
+  color: var(--IRIS);
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--CLOUD);
+}
+/** ============================== */
